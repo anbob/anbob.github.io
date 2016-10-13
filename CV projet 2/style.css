@@ -1,0 +1,50 @@
+.page-header
+{
+    text-align: center;
+    font-size: 45px;
+}
+
+h3{
+    color: #1f70bb;
+    border-bottom: 4px solid #3180bb;
+}
+
+body{
+    background-image: url(noise.jpg);
+}
+
+.couleurcoo{
+    background-color: #484342;
+    color: white;
+}
+
+.couleurformations{
+    background-color: #3180bb;
+    color: white;
+}
+
+.couleurexperiences{
+    background-color: #3180bb;
+    color: white;
+}
+
+.couleurcompetences{
+    background-color: #3180bb;
+    color: white;
+}
+
+.couleurcentres{
+    background-color: #3180bb;
+    color: white;
+
+}
+
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:150px;
+    height:150px;
+}
+
