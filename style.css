@@ -4,6 +4,26 @@
     font-size: 45px;
 }
 
+.roundedImage{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.couleurformations{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.couleurexperiences{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.couleurcompetences{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.couleurcentres{
+    box-shadow: 1px 1px 12px #555;
+}
+
 h3{
     color: #1f70bb;
     border-bottom: 4px solid #3180bb;
@@ -41,5 +61,56 @@ body{
     border-radius:100px;
     width:150px;
     height:150px;
+}
+
+.animated {
+    background-image: url(/css/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:0px;
+    margin-bottom:0px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(30px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
 }
 
