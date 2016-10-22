@@ -75,6 +75,25 @@ body{
     animation-fill-mode: both;
 }
 
+#block1 {
+    height:130px;
+}
+
+#block2 {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #block2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #block1 {
+        text-align: center;
+        height:auto;
+    }
+}
+
 @-webkit-keyframes bounceInDown {
     0% {
         opacity: 0;
